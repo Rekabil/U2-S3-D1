@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Insert Your Pet</h1>
+    <form id="petForm" onsubmit="petSubmit(event)">
+      <input placeholder="Your pets name" type="text" name="petName" />
+      <input placeholder="Your Name" type="text" name="ownerName" />
+      <input placeholder="Pets Species" type="text" name="species" />
+      <input placeholder="Breed" type="text" name="breed" />
+      <button type="submit">Submit</button>
+    </form>
+    <main id="petList">
+      <h2>Pets List</h2>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
